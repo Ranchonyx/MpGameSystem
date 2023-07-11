@@ -1,0 +1,1 @@
+export type AngularRotationSpec = 0 | 90 | 180 | 270;
