@@ -1,12 +1,9 @@
-export type ItemRankEntry = {
+export type ItemRankSpec = {
     name: "Basic" | "Common" | "Uncommon" | "Rare" | "Gilded" | "Ancient" | "Exotic";
     hexColour: `#${string}`
 }
 
-export type PlayerRankEntry = {
+export type PlayerRankSpec = {
     name: "None" | "Sky-Iron" | "Dark-Iron" | "Quicksilver" | "Mithril" | "Elyrium" | "Wellblech";
     hexColour: `#${string}`;
 }
-
-export type PlayerRankSpec = Array<PlayerRankEntry>;
-export type ItemRankSpec = Array<ItemRankEntry>;
